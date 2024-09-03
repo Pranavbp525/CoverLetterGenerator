@@ -4,17 +4,17 @@ personal_information:
   date_of_birth: "25/12/2000"
   country: United States of America
   city: Boston
-  address: 75 Saint Alphonsus Street, Roxbury Crossing, Boston, MA, 02120
+  address: Boston, MA, 02120
   phone_prefix: "+1"
-  phone: "6179062441"
-  email: tandra.b@northeastern.edu
-  github: https://github.com/Pranavbp525
-  linkedin: https://www.linkedin.com/in/pranav-tandra525/
+  phone: "6666666666"
+  email: bpt@email.com
+  github: https://github.com/bpt
+  linkedin: https://www.linkedin.com/in/bpt/
 
 education_details:
   - degree: Masters
-    university: Northeastern University
-    gpa: "3.76/4.00"
+    university: X University
+    gpa: "4.00/4.00"
     graduation_year: "2025"
     field_of_study: Artificial Intelligence
     courses:
@@ -26,8 +26,8 @@ education_details:
       - Algorithms
       - Programming Design Paradigm
   - degree: Bachelors
-    university: Malla Reddy College of Engineering and Technology
-    gpa: "8.43/10.00"
+    university: Y University
+    gpa: "4.00/4.00"
     graduation_year: "2022"
     field_of_study: Computer Science
     courses:
@@ -41,9 +41,9 @@ education_details:
 
 experience_details:
   - position: Senior Analyst (Data Engineer)
-    company: Capgemini
+    company: X
     employment_period: "07/2022 - 12/2022"
-    location: India
+    location: USA
     key_responsibilities:
       - Architected and implemented a data processing pipeline using AWS tools, integrating data from multiple sources into a unified structure. Utilized AWS S3 for storage, Glue for ETL, and Redshift for warehousing, ensuring accuracy and compliance.
       - Designed and executed multi-stage data workflows, including ingestion into S3, transformation with PySpark on AWS EMR, and integration into Redshift. Used AWS Athena for SQL querying and validation, enhancing quality and efficiency.
@@ -59,9 +59,9 @@ experience_details:
       - PySpark
 
   - position: Data Engineering Intern
-    company: Capgemini
+    company: X
     employment_period: "02/2022 - 05/2022"
-    location: India
+    location: USA
     key_responsibilities:
       - Engineered and optimized end-to-end data pipelines using Azure Data Factory and Azure DataBricks, processing a decade-long dataset. Utilized PySpark for scalable data transformations and integrated with ADLS Gen2 for efficient data storage.
       - Performed complex data manipulations and analysis with Azure SQL Database, applying advanced filtering and transformations to uncover trends and contributing factors, and used Azure Synapse Analytics for seamless data integration and querying.
@@ -135,7 +135,7 @@ achievements:
   - name: Most Job Offers
     description: Awarded for securing the highest number of job offers in undergraduate college.
   - name: Code Debugging Winner
-    description: Won the code-debugging competition in undergraduate college's tech fest.
+    description: Won the code-debugging competition in the undergraduate college tech fest.
 
 certifications:
   - Coursera- Deep Learning Specialization
@@ -210,5 +210,5 @@ skills:
     - Azure Functions
     - Azure Kubernetes Services
     - Azure Event Hubs
-    - Azure Cognitive Servieces
+    - Azure Cognitive Services
      
