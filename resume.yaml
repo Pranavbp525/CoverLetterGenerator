@@ -1,0 +1,214 @@
+personal_information:
+  name: Bhavya Pranav
+  surname: Tandra
+  date_of_birth: "25/12/2000"
+  country: United States of America
+  city: Boston
+  address: 75 Saint Alphonsus Street, Roxbury Crossing, Boston, MA, 02120
+  phone_prefix: "+1"
+  phone: "6179062441"
+  email: tandra.b@northeastern.edu
+  github: https://github.com/Pranavbp525
+  linkedin: https://www.linkedin.com/in/pranav-tandra525/
+
+education_details:
+  - degree: Masters
+    university: Northeastern University
+    gpa: "3.76/4.00"
+    graduation_year: "2025"
+    field_of_study: Artificial Intelligence
+    courses:
+      - Large Language Models
+      - Deep Learning
+      - Machine Learning
+      - Foundations in Artificial Intelligence
+      - Artificial Intelligence for Human Computer Interaction
+      - Algorithms
+      - Programming Design Paradigm
+  - degree: Bachelors
+    university: Malla Reddy College of Engineering and Technology
+    gpa: "8.43/10.00"
+    graduation_year: "2022"
+    field_of_study: Computer Science
+    courses:
+      - Data Warehousing and Data Mining
+      - Cloud Computing
+      - Linux
+      - Big Data Analytics
+      - Data Visualization
+      - Parallel and Distributed Computing
+      - Database Management Systems
+
+experience_details:
+  - position: Senior Analyst (Data Engineer)
+    company: Capgemini
+    employment_period: "07/2022 - 12/2022"
+    location: India
+    key_responsibilities:
+      - Architected and implemented a data processing pipeline using AWS tools, integrating data from multiple sources into a unified structure. Utilized AWS S3 for storage, Glue for ETL, and Redshift for warehousing, ensuring accuracy and compliance.
+      - Designed and executed multi-stage data workflows, including ingestion into S3, transformation with PySpark on AWS EMR, and integration into Redshift. Used AWS Athena for SQL querying and validation, enhancing quality and efficiency.
+      - Developed and enforced data quality checks and error handling, leveraging AWS services to boost data integrity. Implemented automated monitoring and reporting with AWS MWAA, reducing manual interventions and improving reliability.
+    skills_acquired:
+      - AWS
+      - AWS S3
+      - AWS Glue
+      - AWS Redshift
+      - AWS Elastic Map-Reduce
+      - AWS Athena
+      - AWS MWAA
+      - PySpark
+
+  - position: Data Engineering Intern
+    company: Capgemini
+    employment_period: "02/2022 - 05/2022"
+    location: India
+    key_responsibilities:
+      - Engineered and optimized end-to-end data pipelines using Azure Data Factory and Azure DataBricks, processing a decade-long dataset. Utilized PySpark for scalable data transformations and integrated with ADLS Gen2 for efficient data storage.
+      - Performed complex data manipulations and analysis with Azure SQL Database, applying advanced filtering and transformations to uncover trends and contributing factors, and used Azure Synapse Analytics for seamless data integration and querying.
+      - Developed interactive dashboards and detailed reports using Power BI and Tableau, visualizing trends and key factors in the dataset.
+    skills_acquired:
+      - Microsoft Azure
+      - Azure Data Factory
+      - Azure DataBricks
+      - MS-SQL
+      - ADLS Gen2
+      - Azure SQL Database
+      - Azure Synapse Analytics
+      - Power BI
+      - Tableu
+
+projects:
+  - name: Google’s Isolated American Sign Language Recognition
+    description: 
+      - Utilized multiple models, including Transformer Encoder, LSTM, GRU, RNN, and traditional machine learning models such as SVM and KNN, to classify Mediapipe Landmark data files from video streams into 250 distinct 'sign' classes.
+      - Conducted a comprehensive comparative analysis to evaluate the performance of each model in action recognition
+      - Conducted extensive hyperparameter tuning using Optuna across a diverse range of values for all models, ensuring each model was trained with its optimal hyperparameters.
+      - Executed thorough data cleaning and processing procedures to significantly reduce the dataset size from 56GB to 12GB to facilitate model training within the constraints of limited available resources, ensuring a more streamlined and resource-efficient training process.
+  - name: Image Restoration using Multi Stage Progressive Image Restoration Model
+    description: 
+      - Revitalized images by addressing a spectrum of degradations, spanning from noise and motion-blur to rain artifacts, employing the state-of-the-art MPRNET model.
+      - Leveraged specific datasets, including GoPro for deblurring, SIDD for denoising, and synthetic rain datasets for deraining, while implementing a diverse set of data augmentations, such as random cropping, flipping, rotating, and adjustments to gamma and saturation, effectively expanding the dataset for more robust model training.
+      - Engineered a sophisticated 3-stage network architecture, with the initial two stages adopting a U-Net structure to grasp contextual information, and the third stage meticulously designed to preserve the original resolution of the image, ensuring the retention of intricate details throughout the training process, thereby maximizing the model's capacity to restore images with enhanced fidelity and clarity across various degradation scenarios.
+  - name: ImageManipulation Application using JAVA
+    description: 
+      - Developed a comprehensive Image Manipulation software with blur, filter, sepia, greyscale and more abilites exclusively using fundamental JDK components.
+      - Expertly applied design patterns, including the builder and command design patterns, and diligently followed MVC principles to create a highly scalable application while strictly adhering to SOLID principles.
+      - Emphasized modularity and scalability without compromising functionality or code readability throughout the project.
+  - name: Celeb Face Generator
+    description: 
+      - Implemented a complex Denoising Diffusion Probabilistic Model, as described in the prominent research paper, using PyTorch.
+      - Trained the model on the CelebAHQ Dataset to generate new, high-quality images.
+      - Demonstrated advanced skills in Python, machine learning, and image processing techniques.
+      - Successfully created a model capable of generating realistic human face images, showcasing the potential in generative modeling and AI-driven image synthesis.
+  - name: English to Italian Translation using Transformer
+    description: 
+      - Developed a Transformer model from scratch for machine translation based on ”Attention is All You Need” by Vaswani et al., utilizing self-attention mechanisms for efficient language translation.
+      - Enabled easy customization for various language pairs through a configurable system, enhancing the model's adaptability for different linguistic datasets.
+      - Utilized PyTorch for all aspects of the model's lifecycle, including construction, training, and inference, leveraging GPU acceleration for improved performance.
+      - Implemented a greedy decoding strategy for translation, providing a straightforward and effective approach for text translation from source to target languages.
+      - Designed a dynamic bilingual dataset loader to facilitate the efficient loading and preprocessing of bilingual sentence pairs, optimizing for computational efficiency and memory usage.
+  - name: Fine-tuning Seq2Seq Models for Text Summarization on Conversational Data
+    description: 
+      - Implemented a text summarization pipeline using the Samsum Corpus, focusing on generating concise summaries from conversational text.
+      - Conducted Exploratory Data Analysis (EDA) to understand dataset characteristics, including dialogue and summary lengths, using Python's pandas and matplotlib libraries.
+      - Utilized pre-trained models (BART, T5, and Pegasus) for initial summarization attempts, identifying limitations in handling conversational data.
+      - Fine-tuned the BART-large-CNN model on the Samsum Corpus to improve summarization performance, adapting the model to better understand conversational semantics.
+      - Evaluated model performance using ROUGE scores, demonstrating significant improvement in summarization quality post fine-tuning.
+      - Conducted both quantitative and qualitative analyses to compare pre-trained and fine-tuned model outputs, showcasing the enhanced coherence and relevance of generated summaries.
+  - name: Generating High Quality Stories by Fine-Tuning and Aligning Phi-2
+    description: 
+      - Pioneering the development of StoryGen, a novel Small Language Model based on Phi-2, aimed at revolutionizing storytelling by employing unique fine-tuning and instruct-tuning techniques on a diverse Stories Dataset to capture intricate narrative nuances.
+      - Leveraging advanced AI techniques, including QLoRA for Parameter Efficient Fine-Tuning, to refine the model's capacity for generating compelling narratives that resonate deeply with audiences.
+      - Implemented Reinforcement Learning from Human Feedback (RLHF) to significantly elevate story quality, coherence, and narrative complexity, showcasing potential through preliminary human evaluators' ratings and user engagement metrics.
+      - Innovated with alignment techniques such as Direct Preference Optimization (DPO) and Self-Rewarding Language Models, to align the generated stories closely with human preferences and storytelling standards.
+      - Conducted comprehensive evaluations through a blend of human ratings and quantitative metrics, aiming to demonstrate StoryGen's superior narrative generation capabilities compared to conventional models.
+      - Used HuggingFace's Transformers, TRL, PEFT and BitsAndBytes, Accelerate and DeepSpeed.
+  - name: Lightweight Visual Question Answering using Gemma2B-it
+    description: 
+      - Spearheading the development of a Lightweight Visual Question Answering (LVQA) system, leveraging the Gemma 2B Instruct model, into LLaVA framework to optimize efficiency and scalability.
+      - Employing advanced natural language processing and image encoding techniques, integrating CLIP-ViT-L-336px with Gemma2B-it, to refine visual question interpretation capabilities.
+      - Pretraining multimodal Large Language and Vision model on text-image pairs, and Visual Instruction Tuning on synthetic Visual Instruct Data.
+      - Utilizing state-of-the-art tools such as PyTorch, TensorFlow, and Hugging Face Transformers to facilitate model development and performance benchmarking.
+      - Benchmark evaluations highlight the LVQA system's potential to surpass existing models in AI efficiency and accessibility, indicating a groundbreaking step forward in the field.
+      
+achievements:
+  - name: Most Job Offers
+    description: Awarded for securing the highest number of job offers in undergraduate college.
+  - name: Code Debugging Winner
+    description: Won the code-debugging competition in undergraduate college's tech fest.
+
+certifications:
+  - Coursera- Deep Learning Specialization
+  - Coursera- AI for Medicine Specialization
+  - IBM Data Visualization
+  - Google Data Analytics Professional Certificate
+  - Coursera- MLOps Specialization by Duke University
+
+skills:
+  programing_languages:
+    - Java 
+    - Python 
+    - C
+    - C++
+    - R
+    - MATLAB
+  databases:
+    - MongoDB
+    - ElasticSearch
+    - Firebase
+    - MySQL
+    - Cassandra
+    - Oracle
+    - PostgreSQL
+    - MSSQL
+    - SQLite
+    - Amazon DynamoDB
+    - ChromaDB
+    - Pinecone
+    - FAISS
+  frameworks:
+    - PyTorch
+    - TensorFlow
+    - Keras
+    - HuggingFace
+    - Langchain
+    - OpenAI
+    - VertexAI
+    - OpenCV
+    - NLTK
+    - Scikit-Learn
+    - NumPy
+    - Pandas
+    - SciPy
+    - PySpark
+  tools:
+    - Git
+    - MLFlow
+    - DVC
+    - AirFlow
+    - Docker
+    - GitHub Actions
+    - Kubernetes
+    - Grafana
+    - Terraform 
+  cloud:
+    - Amazon Sagemaker
+    - AWS Lambda
+    - AWS EMR
+    - AWS S3
+    - AWS Redshift
+    - Amazon RDS
+    - Amazon Cloudwatch
+    - Amazon EC2
+    - Amazon ECS
+    - Amazon EKS
+    - Azure DevOps
+    - Azure MachineLearning
+    - Azure DataBricks
+    - Azure Synapse Analytics
+    - Azure Data Lake
+    - Azure Functions
+    - Azure Kubernetes Services
+    - Azure Event Hubs
+    - Azure Cognitive Servieces
+     

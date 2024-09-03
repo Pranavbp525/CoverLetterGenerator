@@ -1,0 +1,8 @@
+ipykernel
+openai
+weasyprint
+jinja2
+PyYAML
+python-dotenv
+fpdf
+streamlit
