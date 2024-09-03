@@ -51,7 +51,7 @@ This project is a Streamlit web application that generates customized cover lett
 
 1. **Prepare the YAML file:**
 
-   Ensure you have a `resume.yaml` file in the root directory containing the applicant's information.
+   Ensure you fill the `resume.yaml` file in the root directory with the relevant details.
 
 2. **Run the Streamlit app:**
 
